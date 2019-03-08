@@ -1,0 +1,8 @@
+var table = new Tabulator("#example-table", {
+    [
+        {title:"Name", field:"name", frozen:true}, //frozen column on left of table
+        {title:"Age", field:"age"},
+        {title:"Eye Colour", field:"eyes"},
+        {title:"Height", field:"height", frozen:true}, //frozen column on right of table
+    ]
+});
